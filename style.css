@@ -140,9 +140,15 @@ media query
     }
     .players, .blogs, .courses{
       
-        grid-template-columns: repeat(1,1fr);
-     
-          
+        grid-template-columns: repeat(1,1fr);      
+      
+              
+}
+.blogs{
+    justify-items: center;
+}
+.courses{
+    justify-items: center;
 }
     .player, .blog, .course{
         flex-direction: column;
@@ -160,9 +166,11 @@ media query
        }
        .blogs{
         grid-template-columns: repeat(1,1fr);
-       }
+        justify-items: center;
+    }
        .courses{
         grid-template-columns: repeat(1,1fr);
+        justify-items: center;
        }
        
     }
