@@ -82,3 +82,39 @@ hr{
     color: #562EFF;
     font-size: 16px;
 }
+
+/* letest courses style  */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: ;
+}
+.course{
+    width:253px;
+    min-height: 270px;
+    padding: 16px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+
+}
+.course .coures-bannar img{
+    width:224px;
+    height:104px;
+}
+.course-info{ 
+    display: flex; 
+   justify-content: space-between;
+   
+
+}
+.course-title{
+    font-size: 20px;
+    line-height: 23px; 
+    color:#1E1E1E;
+    font-style: normal;
+    font-weight: 500;
+}
+.fa-star.filled{
+    color:#FFC014;
+    font-size: 13px;
+}
